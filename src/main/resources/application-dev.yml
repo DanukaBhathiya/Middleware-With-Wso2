@@ -1,0 +1,16 @@
+middleware:
+  jwt:
+    secret: VerySecretKeyForInternalUseOnly
+    expirationMinutes: 15
+  whitelist:
+    urls:
+      - /api/account/balance
+      - /api/account/balance1
+
+api-gateway:
+  base-url: https://api-gateway.base-url.com
+
+wso2:
+  token-url: https://localhost:9443/oauth2/token
+  client-id: DuYoVtqRzMkFyUDr3GY1KhfR2yMa
+  client-secret: uu1F6JIyBLwE3FTJGj0ZZ6juOuIa
